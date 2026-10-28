@@ -1,0 +1,25 @@
+# Compiled output
+out/
+out-test/
+*.class
+
+# Transient files written while saving
+data/*.tmp
+data/*.csv.tmp
+
+# SQLite journals (the database itself is kept as demo data)
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Editors
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+Thumbs.db
+.DS_Store

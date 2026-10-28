@@ -1,0 +1,41 @@
+
+=== CONNECTION ==================================================
+
+  url            : jdbc:sqlite:c:\Users\Jane Doe\OneDrive\Desktop\sem5\StudentManagementSystem\data\students.db
+  dialect        : SQLITE
+  database       : SQLite 3.46.1
+  jdbc driver    : SQLite JDBC 3.46.1.3
+  auto-commit    : true
+
+=== ROWS ========================================================
+
+  +----+------------+--------------+-------+-----+------+--------+------------+--------------------------+------------+
+  | ID | ROLL       | NAME         | DEPT  | SEM | CGPA | SEX    | DOB        | EMAIL                    | PHONE      |
+  +----+------------+--------------+-------+-----+------+--------+------------+--------------------------+------------+
+  | 1  | 23CSE101   | Aarav Sharma | CSE   | 5   | 8.92 | MALE   | 2004-03-05 | aarav.sharma@college.edu | 9876543210 |
+  | 2  | 23CSE118   | Diya Nair    | CSE   | 5   | 9.41 | FEMALE | 2004-07-19 | diya.nair@college.edu    | 9812345670 |
+  | 3  | 23IT204    | Rohan Verma  | IT    | 3   | 7.64 | MALE   | 2005-01-22 | rohan.verma@college.edu  | 9900112233 |
+  | 4  | 22ECE310   | Ishita Rao   | ECE   | 7   | 8.15 | FEMALE | 2003-11-02 | ishita.rao@college.edu   | 9765432180 |
+  | 5  | 22MECH415  | Karan Singh  | MECH  | 7   | 6.48 | MALE   | 2003-06-14 | karan.singh@college.edu  | 9123456780 |
+  | 6  | 24CIVIL022 | Meera Joshi  | CIVIL | 1   | 7.05 | FEMALE | 2006-02-27 | meera.joshi@college.edu  | 9556677889 |
+  | 7  | 23EEE207   | Sahil Khan   | EEE   | 3   | 5.72 | MALE   | 2004-09-09 | sahil.khan@college.edu   | 9334455667 |
+  | 8  | 22MBA509   | Ananya Iyer  | MBA   | 3   | 8.77 | FEMALE | 2002-12-30 | ananya.iyer@college.edu  | 9440011223 |
+  +----+------------+--------------+-------+-----+------+--------+------------+--------------------------+------------+
+
+  8 row(s)
+
+=== AGGREGATES ==================================================
+
+  students       : 8
+  average cgpa   : 7.77
+  lowest cgpa    : 5.72
+  highest cgpa   : 9.41
+
+  headcount per department
+    CSE     2
+    MECH    1
+    MBA     1
+    IT      1
+    EEE     1
+    ECE     1
+    CIVIL   1
